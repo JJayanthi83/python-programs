@@ -1,0 +1,35 @@
+def users():   
+    
+    print("Type your complaints: ")
+    
+    myfile = open("Complaints.txt", "a")    
+    complaint=input()
+    Comp='\n' + "#" + complaint
+    
+    myfile.write(Comp)
+    myfile.close()
+    
+    print("Our Technical Team will contact you shortly")
+        
+def admin():  
+    
+    print("Type title to register your complaint")
+    myfile = open("Complaints.txt", "r")
+      
+    print(myfile.read())
+    myfile.close( )
+ 
+    
+    
+print("##################################################################")
+print("Your are at the Complaints Registration Portal.")
+print("Follow the instructions to register your complaints.")
+print("##################################################################")
+
+
+choice=input("Are you a user: Y / N : ")
+
+if choice == "Y" or choice == "y":    
+    users()
+else:
+    admin()
