@@ -1,0 +1,8 @@
+# To print one of two words negative, zero or positive according to the given number
+Mynumber=int(input("Enter a number:"))
+if Mynumber>0:
+    print("The number", Mynumber, "is a Positive number")
+elif Mynumber < 0:
+    print ("The number", Mynumber, "is a negative number")
+elif Mynumber == 0:
+    print(" The numebr", Mynumber, "is Zero")
