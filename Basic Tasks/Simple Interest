@@ -1,0 +1,23 @@
+# simple interest using functions
+
+def SimpleInterest(p, n, r = 10):
+    si = (p * n * r)/100
+    return si
+
+# __main__ function
+# Get the printipal amount and number of years
+
+prin = int(input("Enter the principal amount:"))
+years = float(input("Enter the number of years:"))
+
+print("###############################################################")
+
+print(" The Principal Amount is :", prin, end = "\n \n")
+
+print(" The term is:", years, end = "\n \n")
+
+print("###############################################################")
+
+print("Simple Interest is :", SimpleInterest(prin,years))
+
+print("###############################################################")
