@@ -1,0 +1,31 @@
+''' to count the number of words, characters and alpha numeric characters'''
+
+
+
+sen = input("Enter the string:")
+
+words = 1
+char = len(sen)
+alnu = 0
+
+for i in sen:
+    
+    if i == ' ':
+        words =words+1
+    if i.isalnum():
+        alnu+=1
+        
+print()
+print()
+
+        
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+print()
+        
+print("The number of words are                      : ", words)
+
+print("The number of characters are                 : ", char)
+print("The number of alphanmeric characters are     : ", alnu)
+print()
+
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
