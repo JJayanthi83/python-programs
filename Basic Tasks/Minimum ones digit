@@ -1,0 +1,13 @@
+n1= int(input("Enter the first three digit number:"))
+n2=int(input("Enter the second three digit number:"))
+
+
+print()
+
+if n1%10 == n2%10:
+    print (" The ones digits are equal")
+elif n1%10 < n2%10:
+    print("The ones digit of the first number", n1,"is minimum")
+else:
+    print("The ones digit of the second number",n2,"is minimum")
+    
