@@ -1,0 +1,32 @@
+''' to count the number of uppercase and lowercase characters, vowels and consonants and spaces in the given string'''
+str = input("Enter the string:\n")
+
+ucount = 0
+lcount = 0
+vcount = 0
+ccount = 0
+scount = 0
+
+for i in range(0,len(str)):
+    if str[i] ==' ':
+        scount = scount + 1
+   
+    if str[i] in ("a","e","i","o","u","A", "E","I", "O","U"):
+        vcount = vcount + 1
+        
+    if str[i] not in ("a","e","i","o","u","A", "E","I", "O","U",' '):
+        ccount = ccount + 1
+        
+    if str[i].islower():
+        lcount = lcount+1
+    
+    if str[i].isupper():
+        ucount =ucount + 1
+    
+print("The number of,")
+
+print("\t Uppercase Characters\t:", ucount)
+print("\t lowercase Characters\t:", lcount)
+print("\t Vowels\t\t            :", vcount)
+print("\t Consonants\t\t        :", ccount)
+print("\t Spaces\t\t            :", ucount)
