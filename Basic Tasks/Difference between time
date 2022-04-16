@@ -1,0 +1,22 @@
+''' to find the difference between two given time'''
+
+time1=(input("Please enter the first time in four digits -HHMM:"))
+time2=(input("Please enter the second time in four digits -HHMM:"))
+
+
+
+
+fmins = int(time1[:2])*60 + int(time1[2:])
+
+smins = int(time2[:2])*60 + int(time2[2:])
+
+
+diff = smins - fmins
+
+
+
+hours = diff//60
+mins = diff%60
+
+print("The difference between two given time:")
+print(hours,"Hours",mins,"Minutes")
