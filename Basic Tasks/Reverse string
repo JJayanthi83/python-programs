@@ -1,0 +1,9 @@
+''' to reverse the string using string functions'''
+
+def strrev(x):
+    return x[: : -1]
+
+str = input("Enter a string to be reversed:\n") 
+rev = strrev(str)
+print("\nThe reversed string is:\n")
+print(rev)
