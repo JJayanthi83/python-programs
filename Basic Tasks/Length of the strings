@@ -1,0 +1,12 @@
+str1=input("Enter the first string:")
+
+str2=input("Enter the second string:")
+print()
+
+print("The length of two strings are same:")
+print()
+
+if len(str1)== len(str2):
+    print("True")
+else:
+    print("False")
