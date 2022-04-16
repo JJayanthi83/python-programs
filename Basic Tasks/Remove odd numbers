@@ -1,0 +1,20 @@
+''' to remove all the odd numbers from the given list and display only the even numbers '''
+
+def remodd(l):
+    newL = []
+    for i in range(0,len(l)):
+        if l[i] %2 == 0:
+            newL.append(l[i])
+    return newL
+
+
+List=[]
+for i in range(0,10):
+    
+    List.append(i+1)
+
+print("The given list of elements are:\n", List)
+print()
+NList=remodd(List)
+
+print ("The new list without odd numbers are:\n", NList)
