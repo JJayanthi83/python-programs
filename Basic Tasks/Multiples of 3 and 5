@@ -1,0 +1,15 @@
+''' to print the list of integers less than 100 that are multiples of 3 and 5'''
+
+
+
+l1=[]
+
+for i in range(-100, 100):
+    if i %3 ==0 and i%5 ==0:
+        l1.append(i)
+
+
+print()
+print("The list of integers that are multiples of 3 and 5 between -100 and 100 are:")
+print()
+print(l1)
