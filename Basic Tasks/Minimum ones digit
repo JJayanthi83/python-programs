@@ -1,13 +1,18 @@
-n1= int(input("Enter the first three digit number:"))
-n2=int(input("Enter the second three digit number:"))
+''' to find the number with the minimum ones digit '''
 
 
-print()
-
-if n1%10 == n2%10:
-    print (" The ones digits are equal")
-elif n1%10 < n2%10:
-    print("The ones digit of the first number", n1,"is minimum")
-else:
-    print("The ones digit of the second number",n2,"is minimum")
+def min(n1,n2):
     
+    if n1%10 == n2%10:
+        print (" The ones digits are equal")
+        
+    elif n1%10 < n2%10:
+        print("The ones digit of the first number", n1,"is minimum")
+        
+    else:
+        print("The ones digit of the second number",n2,"is minimum")
+    
+x1= int(input("Enter the first three digit number:"))
+x2=int(input("Enter the second three digit number:"))
+
+min(x1,x2)
