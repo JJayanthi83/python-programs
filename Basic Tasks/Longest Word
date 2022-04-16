@@ -1,0 +1,32 @@
+
+'''to find the longest word from the word list'''
+
+
+l1 = ["Hello", "python", "program", "computer", "code", "Alpha"]
+lw = 0
+
+for i in range(len(l1)):
+    if len(l1[i]) > lw:
+        word = l1[i]
+        lw = len(l1[i])
+
+print("//////////////////////////////////////////////////////////////")
+print()
+
+print(" The list of words given:")
+
+print("//////////////////////////////////////////////////////////////")
+print( )
+
+for i in range (len(l1)):
+
+    print("\t", l1[i])
+    
+print()
+
+print("//////////////////////////////////////////////////////////////")
+print()
+
+print("The longest word in the given list of words is : ", word)
+print()
+print("//////////////////////////////////////////////////////////////")
