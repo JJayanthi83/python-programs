@@ -1,0 +1,14 @@
+'''To print the date as name of the month, date and year format'''
+
+months=["January","February","March", "April","May","June", "July","August",
+        "September","October","November", "December"]
+
+
+
+datestr=(input("Enter the date in the format 'MMDDYYYY' :\n"))
+
+mon = int(datestr[0:2])-1
+
+
+print(months[mon]+' '+ datestr[2:4]+',' + datestr[4:])
+
