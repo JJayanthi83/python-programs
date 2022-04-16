@@ -1,0 +1,13 @@
+
+
+first = "Jimmy"
+second = "Johny"
+
+print("Words Before Swapping:")
+
+print("\t", first, "\t", second)
+
+print("Words After Swapping:")
+first, second = second,first
+
+print("\t", first, "\t", second)
