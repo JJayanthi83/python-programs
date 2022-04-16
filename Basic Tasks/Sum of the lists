@@ -1,0 +1,43 @@
+n = int(input("Enter the number of elements in the lists:"))
+
+l1=[]
+l2 = []
+
+# Getting the elements for the first list
+print("***********************************************************")
+print("Enter the list 1 elements one by one:")
+print("***********************************************************")
+print()
+
+for i in range(0,n):
+    l1e=int(input())
+    l1.append(l1e)
+
+
+# Getting the list 2 elements one by one:"
+print("***********************************************************")
+print("Enter the list 2 elements one by one:")
+print("***********************************************************")
+print()
+
+for i in range(0,n):
+    l2e=int(input())
+    l2.append(l2e)
+
+
+# Calculating the sum of corresponding elements
+
+NewL=[]
+for i in range (0,n):
+    NewL.append( l1[i] + l2[i])
+
+print("***********************************************************")    
+print("The sum of the corresponding elements of the two lists are:")
+
+print()
+print("***********************************************************")
+print(NewL)
+
+print()
+
+print("***********************************************************")
