@@ -1,0 +1,17 @@
+''' to sort the dictionary's keys using bubble sort '''
+
+
+def bubble_sort(k):
+    n=len(k)
+    for i in range (len(k)):
+        for j in range(0,n-i-1):
+            if k[j] > k[j+1]:
+                k[j], k[j+1] = k[j+1],k[j]
+    print("Keys after sorting:", k)
+
+
+dic1 = eval(input("Enter the key value pairs:"))
+
+keys=list(dic1.keys())
+
+bubble_sort(keys)
