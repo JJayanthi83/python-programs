@@ -1,0 +1,18 @@
+''' to print the next three numbers of the given number'''
+
+def integer(x):
+    print("The next three numbers of the given number", x, " are:")
+    for i in range(0, 3):
+        x=x+1
+        print (x)
+        
+
+
+
+integer(4)
+print()
+integer(6)
+print()
+integer(2+1)
+print()
+integer(4-3*2)
