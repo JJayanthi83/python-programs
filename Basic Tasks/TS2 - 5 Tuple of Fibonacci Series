@@ -1,0 +1,17 @@
+''' To createa tuple storing first 9 terms of Fibonacci series'''
+
+l=[0,1]
+
+a=0
+b=1
+c=0
+
+for i in range(7):
+    c=a+b
+    a=b
+    b=c
+    l.append(c)
+
+print()
+print("A Tuple of First 9 terms of Fibonacci Series:")
+print(tuple(l))
