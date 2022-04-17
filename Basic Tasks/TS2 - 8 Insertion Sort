@@ -1,0 +1,24 @@
+''' to sort the dictionary's keys using insertion sort '''
+
+
+def insertion_sort(k):
+    
+    for i in range (1, len(k)):
+        y = k[i]
+        j=i-1
+        
+        while j>=0 and y < k[j]:
+            
+            k[j+1] = k[j]
+            j=j-1
+        else:
+            k[j+1] = y
+            
+    print("Keys after sorting:", k)
+
+
+dic1 = eval(input("Enter the key value pairs:"))
+
+keys=list(dic1.keys())
+
+insertion_sort(keys)
