@@ -1,0 +1,28 @@
+
+''' to create the union of two dictionaries'''
+
+
+def adddic(dic1, dic2):
+    dic={}
+    for i in dic1:
+        dic[i] = dic1[i]
+    
+    for j in dic2:
+        dic[j]=dic2[j]
+
+    return dic
+
+dict1=eval(input("Enter the key-values of dictionary 1:"))
+print()
+print("##########################################################")
+dict2=eval(input("Enter the key-values of dictionary 2:"))
+print()
+print("##########################################################")
+print()
+print("Union of two dictionaries:")
+print()
+print("##########################################################")
+print()
+print(adddic(dict1,dict2))
+print()
+print("##########################################################")
