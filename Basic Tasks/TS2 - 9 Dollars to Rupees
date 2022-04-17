@@ -1,0 +1,26 @@
+''' Convert dollar to rupee'''
+
+# Non - void function
+
+def rupee(doll):
+    return doll * 76
+
+# Void function
+
+def rupe(dol):
+    print(dol, "dolar is equal to", dol * 76, "rupees")
+
+
+dollar = int(input("Enter the amount in  dollars:"))
+print()
+r = rupee(dollar)
+print("Calling non - void function")
+print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+print(dollar, "dollar is equal to", r," rupees")
+
+print()
+
+print("Calling void function")
+print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+rupe(dollar)
+
