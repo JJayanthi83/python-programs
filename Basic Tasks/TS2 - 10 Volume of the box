@@ -1,0 +1,13 @@
+''' to find the volume of the box using functions'''
+
+def volume(l,w,h):
+    return l*w*h
+
+
+le = int(input("Enter the length of the box:"))
+wid=int(input("Enter the width of the box:"))
+ht = int(input("Enter the height of the box:"))
+
+print("********************************************************")
+print("The volume of the box is:", volume(le,wid,ht))
+print("********************************************************")
