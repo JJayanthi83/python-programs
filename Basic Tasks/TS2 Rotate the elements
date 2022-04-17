@@ -1,0 +1,15 @@
+''' to rotate the elements in the lsit'''
+
+l=eval(input("Enter the list elements:"))
+
+print("*************************************************")
+
+print(l)
+print("*************************************************")
+print()
+
+
+NewL=l[-1:] + l[:-1]
+
+print(NewL)
+print("*************************************************")
