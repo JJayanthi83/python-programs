@@ -1,0 +1,11 @@
+
+''' to find the angle sum property '''
+
+def anglesum(n):
+    As = (n-2)* 180
+    print("The angle sum of ", n, " sided polygon is: ", As)
+   
+
+x = int(input("Enter the number of sides of the polygon:"))
+
+anglesum(x)
